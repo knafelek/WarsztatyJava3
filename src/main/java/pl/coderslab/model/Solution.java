@@ -1,4 +1,4 @@
-package pl.hit.coderslab.workshops.school.model;
+package pl.coderslab.model;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
@@ -90,7 +90,6 @@ public class Solution {
 
     @Override
     public int hashCode() {
-
         return Objects.hash(id);
     }
 

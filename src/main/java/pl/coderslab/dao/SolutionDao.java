@@ -1,10 +1,10 @@
 package pl.coderslab.dao;
 
 import org.apache.log4j.Logger;
-import pl.hit.coderslab.workshops.school.model.Solution;
-import pl.hit.coderslab.workshops.school.model.User;
-import pl.hit.coderslab.workshops.school.model.UserGroup;
-import pl.hit.coderslab.workshops.school.utils.DbUtil;
+import pl.coderslab.model.Solution;
+import pl.coderslab.model.User;
+import pl.coderslab.model.UserGroup;
+import pl.coderslab.utils.DbUtil;
 
 import java.sql.*;
 import java.util.LinkedList;

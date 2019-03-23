@@ -1,4 +1,4 @@
-package pl.hit.coderslab.workshops.school.filters;
+package pl.coderslab.filters;
 
 import org.apache.log4j.Logger;
 

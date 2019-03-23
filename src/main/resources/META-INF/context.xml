@@ -10,7 +10,13 @@
               password=""
               driverClassName="com.mysql.cj.jdbc.Driver"
               connectionProperties="createDatabaseIfNotExist=true;serverTimezone=UTC;useUnicode=yes;characterEncoding=utf8;useSSL=false"
-              url="jdbc:mysql://localhost:3306/wro_jee_s_08_school"
+
+                url="jdbc:mysql://localhost:3306/wro_jee_s_08_school?useSSL=false&characterEncoding=utf8&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"
+
+                <!--url="jdbc:mysql://localhost:3306/wro_jee_s_08_school"-->
+
+                <!-- NAZWA MOJEJ WAZY DANYCH TO: warsztaty2 -->
+
               maxTotal="100"
               maxIdle="30"
               maxWaitMillis="10000"/>

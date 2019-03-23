@@ -1,4 +1,4 @@
-package pl.hit.coderslab.workshops.school.model;
+package pl.coderslab.model;
 
 import java.util.Objects;
 
@@ -56,7 +56,6 @@ public class Exercise {
 
     @Override
     public int hashCode() {
-
         return Objects.hash(id);
     }
 

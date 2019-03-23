@@ -1,12 +1,12 @@
-package pl.hit.coderslab.workshops.school.servlets;
+package pl.coderslab.servlets;
 
 import org.apache.log4j.Logger;
-import pl.hit.coderslab.workshops.school.dao.ExerciseDao;
-import pl.hit.coderslab.workshops.school.dao.SolutionDao;
-import pl.hit.coderslab.workshops.school.dao.UserDao;
-import pl.hit.coderslab.workshops.school.model.Exercise;
-import pl.hit.coderslab.workshops.school.model.Solution;
-import pl.hit.coderslab.workshops.school.model.User;
+import pl.coderslab.dao.ExerciseDao;
+import pl.coderslab.dao.SolutionDao;
+import pl.coderslab.dao.UserDao;
+import pl.coderslab.model.Exercise;
+import pl.coderslab.model.Solution;
+import pl.coderslab.model.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

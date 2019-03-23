@@ -1,4 +1,4 @@
-package pl.hit.coderslab.workshops.school.model;
+package pl.coderslab.model;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package pl.hit.coderslab.workshops.school.utils;
+package pl.coderslab.utils;
 
 import org.apache.log4j.Logger;
 
@@ -22,7 +22,7 @@ public class DbUtil {
         if (dataSource == null) {
             try {
                 Context context = new InitialContext();
-                dataSource = (DataSource) context.lookup("java:comp/env/jdbc/school");
+                dataSource = (DataSource) context.lookup("java:comp/env/jdbc/school"); //???
             } catch (NamingException ne) {
                 logger.error("Błąd uzyskania źródła danych", ne);
                 throw new RuntimeException("Błąd uzyskania źródła danych", ne);
