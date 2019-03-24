@@ -45,7 +45,7 @@ public class HomePageServlet extends HttpServlet {
         try {
             return Integer.parseInt(numberSolutionsParam);
         } catch (NumberFormatException nfe) {
-            logger.warn("Nie udalo się odczytać parametru `numer-solutions`", nfe);
+            logger.warn("Nie udało się odczytać parametru `numer-solutions`", nfe);
             return 5;
         }
     }

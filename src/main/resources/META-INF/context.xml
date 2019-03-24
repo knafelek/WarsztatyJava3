@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/">
 
-<!--    Plik konfiguracji źródła danych dla Tomcat'a-->
-
     <Resource name="jdbc/school"
               auth="Container"
               type="javax.sql.DataSource"
@@ -11,16 +9,9 @@
               driverClassName="com.mysql.cj.jdbc.Driver"
               connectionProperties="createDatabaseIfNotExist=true;serverTimezone=UTC;useUnicode=yes;characterEncoding=utf8;useSSL=false"
 
-                url="jdbc:mysql://localhost:3306/wro_jee_s_08_school?useSSL=false&characterEncoding=utf8&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"
-
-                <!--url="jdbc:mysql://localhost:3306/wro_jee_s_08_school"-->
-
-                <!-- NAZWA MOJEJ WAZY DANYCH TO: warsztaty2 -->
+                url="jdbc:mysql://localhost:3306/wro_jee_s_08_school?useSSL=false;characterEncoding=utf8;useUnicode=true;useJDBCCompliantTimezoneShift=true;useLegacyDatetimeCode=false;serverTimezone=UTC"
 
               maxTotal="100"
               maxIdle="30"
               maxWaitMillis="10000"/>
-
 </Context>
-
-<!--    Dodatkowe ustawienia połączenia z bazą danych: useSSL=false -->
